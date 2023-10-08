@@ -1,7 +1,7 @@
 from flask import Flask, send_from_directory, request, jsonify, render_template
 # from flask_cors import CORS
 
-app = Flask(__name__, template_folder='template')
+app = Flask(__name__)
 # CORS(app) 
 
 # MAX_X = 8
